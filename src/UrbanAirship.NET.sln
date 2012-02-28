@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanAirship.NET", "UrbanAirship.NET\UrbanAirship.NET.csproj", "{6BD1A53D-1DD0-4A59-AF69-7C7DD5DBF9F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanAirship.NET.Test", "UrbanAirship.NET.Test\UrbanAirship.NET.Test.csproj", "{DC3C728C-FE45-4DE7-8047-415D54793ADE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E630E998-5A62-42C2-BC66-263428976650}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		UrbanAirship.NET.vsmdi = UrbanAirship.NET.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSharp", "RestSharp\RestSharp.csproj", "{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = UrbanAirship.NET.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		MobileEmulator|Any CPU = MobileEmulator|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD1A53D-1DD0-4A59-AF69-7C7DD5DBF9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD1A53D-1DD0-4A59-AF69-7C7DD5DBF9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD1A53D-1DD0-4A59-AF69-7C7DD5DBF9F8}.MobileEmulator|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD1A53D-1DD0-4A59-AF69-7C7DD5DBF9F8}.MobileEmulator|Any CPU.Build.0 = Release|Any CPU
+		{6BD1A53D-1DD0-4A59-AF69-7C7DD5DBF9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD1A53D-1DD0-4A59-AF69-7C7DD5DBF9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3C728C-FE45-4DE7-8047-415D54793ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3C728C-FE45-4DE7-8047-415D54793ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3C728C-FE45-4DE7-8047-415D54793ADE}.MobileEmulator|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3C728C-FE45-4DE7-8047-415D54793ADE}.MobileEmulator|Any CPU.Build.0 = Release|Any CPU
+		{DC3C728C-FE45-4DE7-8047-415D54793ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3C728C-FE45-4DE7-8047-415D54793ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.MobileEmulator|Any CPU.ActiveCfg = MobileEmulator|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.MobileEmulator|Any CPU.Build.0 = MobileEmulator|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECECFBF-5F3E-40EE-A963-72336DC7ABE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
